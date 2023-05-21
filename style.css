@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header > p {
+    display: inline;
+    
+    position: absolute;
+    top: 3%;
+    left: 30%;
+    font-size: 22pt;
+    font-weight: bolder;
+}
+
+section#esq {
+    background-color: white;
+    width: 200px;
+    height: 95.4vh;
+    padding: 15px;
+    font-size: 13pt;
+    line-height: 1.2em;
+}
+
+section#esq > h5 {
+    
+}
+
+section#esq > p {
+    padding: 8px;
+    
+}
+
+section#esq > img {
+    width: 150px;
+    border: 1px solid white;
+    margin: 20px 0px 20px 10px;
+}
+
+section.esq > h4 {
+    color: rgb(212, 68, 68);
+}
+
+section.esq {
+    padding-bottom: 10px;
+}
+
+section.esq > p {
+    padding: 10px;
+}
+
+section#centro {
+    position: absolute;
+    left: 31%;
+    top: 10%;
+    padding-top: 5px;
+    font-size: 10pt;
+}
+
+section#centro ul li {
+    list-style-type: none;
+}
+
+section#idi > ul > li {
+    padding-left: 10px;
+}
+.nome {
+    display: none;
+}
+
+.nomed {
+    display: none;
+}
+
+section#exp > ul > li {
+    padding: 10px;
+}
+
+section#for > ul > li {
+    padding: 10px;
+}
+
+section#com > ul {
+    columns: 2;
+    padding: 0px 10px 10px 10px
+}
+
+section h3 {
+    padding: 5px;
+    color: rgb(212, 68, 68);
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

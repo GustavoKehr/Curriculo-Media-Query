@@ -1,0 +1,349 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    html, body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    body {
+        
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    header > p {
+        display: inline;
+        
+        position: absolute;
+        top: 8%;
+        left: 45%;
+        font-size: 22pt;
+        font-weight: bolder;
+    }
+    
+    section#esq {
+        background-color: white;
+        height: 60vh;
+        padding: 30px;
+        font-size: 15pt;
+        line-height: 1.2em;
+    }
+    
+    section#esq > p {
+        padding: 8px;
+        
+    }
+    
+    section#esq > img {
+        width: 150px;
+        border: 1px solid white;
+        margin: 20px 0px 20px 10px;
+    }
+    
+    section#centro {
+        position: absolute;
+        left: 2%;
+        top: 63%;
+        padding-top: 5px;
+        font-size: 15pt;
+    }
+    
+    section#centro ul li {
+        list-style-type: none;
+    }
+    
+    section#idi > ul > li {
+        padding: 10px;
+    }
+    
+    section#exp > ul > li {
+        padding: 10px;
+    }
+    
+    section#for > ul > li {
+        padding: 10px;
+    }
+    
+    section#com > ul {
+        columns: 2;
+        padding: 0px 10px 10px 10px
+    }
+    
+    section h3 {
+        padding: 5px;
+        color: rgb(212, 68, 68);
+    }
+    
+    hr {
+        margin-bottom: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: blue;
+    }
+
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    html, body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    body {
+        
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    header > p {
+        display: inline;
+        
+        position: absolute;
+        top: 8%;
+        left: 30%;
+        font-size: 22pt;
+        font-weight: bolder;
+    }
+    
+    section#esq {
+        background-color: white;
+        height: 60vh;
+        padding: 30px;
+        font-size: 15pt;
+        line-height: 1.2em;
+    }
+    
+    section#esq > p {
+        padding: 8px;
+        
+    }
+    
+    section#esq > img {
+        width: 150px;
+        border: 1px solid white;
+        margin: 20px 0px 20px 10px;
+    }
+    
+    section#centro {
+        position: absolute;
+        left: 2%;
+        top: 55%;
+        padding-top: 5px;
+        font-size: 15pt;
+    }
+    
+    section#centro ul li {
+        list-style-type: none;
+    }
+    
+    section#idi > ul > li {
+        padding: 10px;
+    }
+    
+    section#exp > ul > li {
+        padding: 10px;
+    }
+    
+    section#for > ul > li {
+        padding: 10px;
+    }
+    
+    section#com > ul {
+        columns: 2;
+        padding: 0px 10px 10px 10px
+    }
+    
+    section h3 {
+        padding: 5px;
+        color: rgb(212, 68, 68);
+    }
+    
+    hr {
+        margin-bottom: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: blue;
+    }
+
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1280px)  {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    html, body {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    body {
+        
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    header {
+        position: absolute;
+        font-size: 22pt;
+        font-weight: bolder;
+        top: 8%;
+        left: 60%;
+    }
+
+    section#esq {
+        background-color: lightgreen;
+        height: 98vh;
+        width: 300px;
+        padding: 30px;
+        font-size: 13pt;
+        line-height: 1.2em;
+    }
+
+    section.esq {
+        padding-bottom: 30px;
+    }
+    
+    section#esq > p {
+        padding: 8px;
+        
+    }
+    
+    section#esq > img {
+        width: 250px;
+        border: 1px solid white;
+        margin: 20px 0px 20px 10px;
+    }
+
+    section.esq > h4 {
+        padding-bottom: 10px;
+    }
+    
+    section#centro {
+        position: absolute;
+        left: 40%;
+        top: 5%;
+        padding-top: 5px;
+        font-size: 15pt;
+    }
+
+    section#idi {
+        width: 600px;
+        font-size: 13pt;
+    }
+
+    section#idi > p {
+        display: inline;
+        position: absolute;
+        top: 4%;
+        left: 35%;
+        font-size: 22pt;
+        font-weight: bolder;
+    }
+    
+
+    section#exp {
+        width: 800px;
+        font-size: 13pt;
+    }
+
+    section#for {
+        width: 800px;
+        font-size: 13pt;
+    }
+
+    section#com {
+        width: 800px;
+        font-size: 13pt;
+    }
+    
+    section#centro ul li {
+        list-style-type: none;
+    }
+    
+    section#idi > ul > li {
+        padding-left: 10px;
+    }
+    
+    section#exp > ul > li {
+        list-style-type: circle;
+        padding: 10px;
+    }
+    
+    section#for > ul > li {
+        list-style-type: circle;
+        padding: 10px;
+    }
+    
+    section#com > ul {
+        columns: 2;
+        padding: 0px 10px 10px 10px
+    }
+    
+    section h3 {
+        padding: 5px;
+        color: rgb(212, 68, 68);
+    }
+    
+    hr {
+        margin-bottom: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: blue;
+    }
+    ::-webkit-scrollbar {
+        width: 0px;
+        height: 0px;
+    }
+    a:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+}
+
