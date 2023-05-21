@@ -101,6 +101,9 @@
         cursor: pointer;
     }
     
+    section.esq > p > a {
+        color: red;
+    }
 }
 
 
@@ -205,7 +208,9 @@
         cursor: pointer;
     }
     
-    
+    section.esq > p > a {
+        color: red;
+    }
 }
 
 @media screen and (min-width: 1280px)  {
@@ -235,7 +240,8 @@
     }
 
     section#esq {
-        background-color: lightgreen;
+        background-color: rgb(65, 65, 65);
+        color: white;
         height: 98vh;
         width: 300px;
         padding: 30px;
@@ -334,7 +340,7 @@
     
     a {
         text-decoration: none;
-        color: blue;
+        color: red;
     }
     ::-webkit-scrollbar {
         width: 0px;
@@ -343,6 +349,10 @@
     a:hover {
         text-decoration: underline;
         cursor: pointer;
+    }
+
+    section.esq > p > a {
+        color: aqua;
     }
     
 }

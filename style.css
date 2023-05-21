@@ -58,6 +58,10 @@ section.esq {
     padding-bottom: 10px;
 }
 
+section.esq > p > a {
+    color: red;
+}
+
 section.esq > p {
     padding: 10px;
 }
