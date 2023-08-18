@@ -35,10 +35,6 @@ section#esq {
     line-height: 1.2em;
 }
 
-section#esq > h5 {
-    
-}
-
 section#esq > p {
     padding: 8px;
     
@@ -98,7 +94,7 @@ section#for > ul > li {
 }
 
 section#com > ul {
-    columns: 2;
+    columns: 3;
     padding: 0px 10px 10px 10px
 }
 
