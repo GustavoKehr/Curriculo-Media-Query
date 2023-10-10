@@ -47,7 +47,7 @@ section#esq > img {
 }
 
 section.esq > h4 {
-    color: rgb(212, 68, 68);
+    color: black;
 }
 
 section.esq {
@@ -55,7 +55,7 @@ section.esq {
 }
 
 section.esq > p > a {
-    color: red;
+    color: blue;
 }
 
 section.esq > p {
@@ -100,7 +100,7 @@ section#com > ul {
 
 section h3 {
     padding: 5px;
-    color: rgb(212, 68, 68);
+    color: black;
 }
 
 hr {
